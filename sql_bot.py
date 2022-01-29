@@ -2,6 +2,7 @@ import sqlite3
 
 DB = 'daily_food.db'
 
+
 def insert_menu(date, course_0, course_1, course_2, course_3):  # записываем еду в базу
     if not(select_menu(date)):
         try:
@@ -38,4 +39,3 @@ def select_menu(date):  # получаем еду из базы по дате
 
     except sqlite3.Error as error:
         print("Ошибка при работе с SQLite", error)
- 
