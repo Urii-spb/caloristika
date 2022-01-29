@@ -1,4 +1,1 @@
-json
-requests
-telebot
-sqlite3
+pytelegrambotapi

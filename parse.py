@@ -2,6 +2,7 @@ import json
 import requests
 from sql_bot import insert_menu, select_menu
 
+
 def pars(yourmenu):  # парсим еду с сайта и записываем в базу
 
     url = 'https://caloristika.ru/api/rations'
