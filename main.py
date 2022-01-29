@@ -2,8 +2,8 @@ from parse import unpack
 import telebot
 
 with open('id_bot') as file:
-    botid = file.read()
-bot = telebot.TeleBot(botid)
+    bot_id = file.read()
+bot = telebot.TeleBot(bot_id)
 print(dir(bot))
 
 
